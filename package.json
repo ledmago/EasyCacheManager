@@ -1,0 +1,30 @@
+{
+  "name": "easy-auto-cache-manager",
+  "version": "1.1.2",
+  "description": "An Easy And Auto Cache Manager Library",
+  "main": "index.js",
+  "scripts": {
+    "test": "cd test && npm install && node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ledmago/easycachemanager.git"
+  },
+  "keywords": [
+    "easy",
+    "cache",
+    "manager",
+    "redis",
+    "mongo"
+  ],
+  "author": "ledmago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ledmago/easycachemanager/issues"
+  },
+  "homepage": "https://github.com/ledmago/easycachemanager#readme",
+  "dependencies": {
+    "mongoose": "^5.12.0",
+    "redis": "^3.0.2"
+  }
+}
