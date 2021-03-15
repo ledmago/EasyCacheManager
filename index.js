@@ -11,12 +11,12 @@ class EasyAutoCacheManager {
 
         this.client = redis.createClient();
 
-        client.on('connect', function () {
-            console.log('Redis client bağlandı');
+        this.client.on('connect', function () {
+            console.log('Redis client connected');
         });
 
-        client.on('error', function (err) {
-            // console.log('Redis Clientda bir hata var ' + err);
+        this.client.on('error', function (err) {
+            console.log('Redis client connection error' + err);
         });
     }
 
